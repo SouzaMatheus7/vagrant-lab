@@ -74,4 +74,6 @@ config.vm.box="ubuntu/bionic64"
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
+config.vm.provider "virtualbox" do |vb|
+vb.memory="1024"
 end
